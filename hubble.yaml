@@ -1,6 +1,0 @@
-checks:
-  - kotahi_publish
-
-kotahi_publish:
-  branch:
-    branch_regex: "^master$"
