@@ -57,13 +57,13 @@ function requestedInteraction(payload) {
     let selectedValue;
 
     // determine the selected item (if there is one)
-    if(activity.arguments.execute.inArguments) {
-        const existingSelection = activity.arguments.execute.inArguments[0].discount ?? activity.arguments.execute.inArguments[0].discountCode;
+    //if(activity.arguments.execute.inArguments) {
+    //    const existingSelection = activity.arguments.execute.inArguments[0].discount ?? activity.arguments.execute.inArguments[0].discountCode;
 
-        if(existingSelection.split('.').length == 3) {
-            selectedValue = existingSelection.split('.')[1];
-        }
-    }
+    //    if(existingSelection.split('.').length == 3) {
+    //        selectedValue = existingSelection.split('.')[1];
+   //     }
+   // }
 
     // populate the select dropdown.
     const selectElement = document.getElementById('discount-code');
