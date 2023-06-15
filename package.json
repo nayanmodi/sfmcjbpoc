@@ -7,7 +7,7 @@
   "license": "BSD-3-Clause",
     "engines": {
     "node": "18.x"
-  }
+  },
   "scripts": {
     "dev": "concurrently \"npm start\" \"webpack --watch\"",
     "build": "webpack --mode production",
